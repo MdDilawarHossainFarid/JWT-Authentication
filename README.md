@@ -1,3 +1,3 @@
-## This is an Basic api authetication
+## This is an Basic api authetication using JWT
 
-## ji
+## 
