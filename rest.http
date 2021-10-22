@@ -1,0 +1,26 @@
+GET http://localhost:8000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MzQ5MDkzOTAsImV4cCI6MTYzNDkwOTQxMH0.d2VvfH7cg4TwVIm7IVstMqjESr9kwkRiLrJuxzlzDek
+
+###Login Route
+POST http://localhost:8000/auth/login
+Content-Type: application/json
+
+{"email":"fatrid1234@gmail.com",
+"password": "Dil@123hos"
+}
+
+
+###Register Route
+POST http://localhost:8000/auth/register
+Content-Type: application/json
+
+{"email":"fatrid1234@gmail.com",
+"password": "Dil@123hos"
+}
+
+
+###Refresh token Route
+POST  http://localhost:8000/auth/refresh_toke
+
+###Logout Route
+DELETE  http://localhost:8000/auth/logout

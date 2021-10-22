@@ -1,0 +1,6 @@
+# ignore 3rd party lib
+node_modules/
+
+# Environment varibles
+*.env
+*.env.*
